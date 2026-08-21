@@ -1,0 +1,56 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "grid-size" : "regular"
+  },
+  "stickers" : [
+    {
+      "filename" : "01_Good_morning.sticker"
+    },
+    {
+      "filename" : "02_Whattt.sticker"
+    },
+    {
+      "filename" : "03_Huh.sticker"
+    },
+    {
+      "filename" : "04_Im_reminding_you.sticker"
+    },
+    {
+      "filename" : "05_So_sleepy.sticker"
+    },
+    {
+      "filename" : "06_Wow.sticker"
+    },
+    {
+      "filename" : "07_Approved.sticker"
+    },
+    {
+      "filename" : "08_Nice.sticker"
+    },
+    {
+      "filename" : "09_Hey_you.sticker"
+    },
+    {
+      "filename" : "10_Achoo.sticker"
+    },
+    {
+      "filename" : "11_Angry.sticker"
+    },
+    {
+      "filename" : "12_Huh_question.sticker"
+    },
+    {
+      "filename" : "13_Good_night.sticker"
+    },
+    {
+      "filename" : "14_Too_cuteee.sticker"
+    },
+    {
+      "filename" : "15_Am_I_cool_yet.sticker"
+    }
+  ]
+}
