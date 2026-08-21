@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D4007FA3037BBF80065FA55 /* LianysAndGoku StickerPackExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0D4007F93037BBF80065FA55 /* LianysAndGoku StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0D4007FA3037BBF80065FA55 /* LAndGoku StickerPackExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0D4007F93037BBF80065FA55 /* LAndGoku StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		0D4007FE3037BBF80065FA55 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 0D4007FD3037BBF80065FA55 /* Stickers.xcstickers */; };
 		0D4007FF3037BBF80065FA55 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 0D4007FD3037BBF80065FA55 /* Stickers.xcstickers */; };
 /* End PBXBuildFile section */
@@ -18,7 +18,7 @@
 			containerPortal = 0D4007EF3037BBF80065FA55 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0D4007F83037BBF80065FA55;
-			remoteInfo = "LianysAndGoku StickerPackExtension";
+			remoteInfo = "LAndGoku StickerPackExtension";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -29,7 +29,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				0D4007FA3037BBF80065FA55 /* LianysAndGoku StickerPackExtension.appex in Embed Foundation Extensions */,
+				0D4007FA3037BBF80065FA55 /* LAndGoku StickerPackExtension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -37,9 +37,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0D4007F53037BBF80065FA55 /* LianysAndGoku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LianysAndGoku.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D4007F93037BBF80065FA55 /* LianysAndGoku StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "LianysAndGoku StickerPackExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D4007FD3037BBF80065FA55 /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = "LianysAndGoku StickerPackExtension/Stickers.xcstickers"; sourceTree = "<group>"; };
+		0D4007F53037BBF80065FA55 /* LAndGoku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LAndGoku.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D4007F93037BBF80065FA55 /* LAndGoku StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "LAndGoku StickerPackExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D4007FD3037BBF80065FA55 /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = "LAndGoku StickerPackExtension/Stickers.xcstickers"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -54,8 +54,8 @@
 		0D4007F63037BBF80065FA55 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0D4007F53037BBF80065FA55 /* LianysAndGoku.app */,
-				0D4007F93037BBF80065FA55 /* LianysAndGoku StickerPackExtension.appex */,
+				0D4007F53037BBF80065FA55 /* LAndGoku.app */,
+				0D4007F93037BBF80065FA55 /* LAndGoku StickerPackExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,9 +63,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0D4007F43037BBF80065FA55 /* LianysAndGoku */ = {
+		0D4007F43037BBF80065FA55 /* LAndGoku */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0D4008063037BBF80065FA55 /* Build configuration list for PBXNativeTarget "LianysAndGoku" */;
+			buildConfigurationList = 0D4008063037BBF80065FA55 /* Build configuration list for PBXNativeTarget "LAndGoku" */;
 			buildPhases = (
 				0D4007F33037BBF80065FA55 /* Resources */,
 				0D4008053037BBF80065FA55 /* Embed Foundation Extensions */,
@@ -75,16 +75,16 @@
 			dependencies = (
 				0D4007FC3037BBF80065FA55 /* PBXTargetDependency */,
 			);
-			name = LianysAndGoku;
+			name = LAndGoku;
 			packageProductDependencies = (
 			);
-			productName = LianysAndGoku;
-			productReference = 0D4007F53037BBF80065FA55 /* LianysAndGoku.app */;
+			productName = LAndGoku;
+			productReference = 0D4007F53037BBF80065FA55 /* LAndGoku.app */;
 			productType = "com.apple.product-type.application.messages";
 		};
-		0D4007F83037BBF80065FA55 /* LianysAndGoku StickerPackExtension */ = {
+		0D4007F83037BBF80065FA55 /* LAndGoku StickerPackExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0D4008023037BBF80065FA55 /* Build configuration list for PBXNativeTarget "LianysAndGoku StickerPackExtension" */;
+			buildConfigurationList = 0D4008023037BBF80065FA55 /* Build configuration list for PBXNativeTarget "LAndGoku StickerPackExtension" */;
 			buildPhases = (
 				0D4007F73037BBF80065FA55 /* Resources */,
 			);
@@ -92,11 +92,11 @@
 			);
 			dependencies = (
 			);
-			name = "LianysAndGoku StickerPackExtension";
+			name = "LAndGoku StickerPackExtension";
 			packageProductDependencies = (
 			);
-			productName = "LianysAndGoku StickerPackExtension";
-			productReference = 0D4007F93037BBF80065FA55 /* LianysAndGoku StickerPackExtension.appex */;
+			productName = "LAndGoku StickerPackExtension";
+			productReference = 0D4007F93037BBF80065FA55 /* LAndGoku StickerPackExtension.appex */;
 			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
 		};
 /* End PBXNativeTarget section */
@@ -116,7 +116,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0D4007F23037BBF80065FA55 /* Build configuration list for PBXProject "LianysAndGoku" */;
+			buildConfigurationList = 0D4007F23037BBF80065FA55 /* Build configuration list for PBXProject "LAndGoku" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -130,8 +130,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0D4007F43037BBF80065FA55 /* LianysAndGoku */,
-				0D4007F83037BBF80065FA55 /* LianysAndGoku StickerPackExtension */,
+				0D4007F43037BBF80065FA55 /* LAndGoku */,
+				0D4007F83037BBF80065FA55 /* LAndGoku StickerPackExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -158,7 +158,7 @@
 /* Begin PBXTargetDependency section */
 		0D4007FC3037BBF80065FA55 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0D4007F83037BBF80065FA55 /* LianysAndGoku StickerPackExtension */;
+			target = 0D4007F83037BBF80065FA55 /* LAndGoku StickerPackExtension */;
 			targetProxy = 0D4007FB3037BBF80065FA55 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -290,7 +290,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R5J6B45Q5Y;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "LianysAndGoku StickerPackExtension/Info.plist";
+				INFOPLIST_FILE = "LAndGoku StickerPackExtension/Info.plist";
 				INFOPLIST_KEY_NSStickerSharingLevel = OS;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.juan.LandGoku.StickerPackExtension;
@@ -310,7 +310,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R5J6B45Q5Y;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "LianysAndGoku StickerPackExtension/Info.plist";
+				INFOPLIST_FILE = "LAndGoku StickerPackExtension/Info.plist";
 				INFOPLIST_KEY_NSStickerSharingLevel = OS;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.juan.LandGoku.StickerPackExtension;
@@ -330,7 +330,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R5J6B45Q5Y;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LianysAndGoku/Info.plist;
+				INFOPLIST_FILE = LAndGoku/Info.plist;
 				INFOPLIST_KEY_NSStickerSharingLevel = OS;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.juan.LandGoku;
@@ -349,7 +349,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R5J6B45Q5Y;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LianysAndGoku/Info.plist;
+				INFOPLIST_FILE = LAndGoku/Info.plist;
 				INFOPLIST_KEY_NSStickerSharingLevel = OS;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.juan.LandGoku;
@@ -363,7 +363,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0D4007F23037BBF80065FA55 /* Build configuration list for PBXProject "LianysAndGoku" */ = {
+		0D4007F23037BBF80065FA55 /* Build configuration list for PBXProject "LAndGoku" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0D4008003037BBF80065FA55 /* Debug */,
@@ -372,7 +372,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0D4008023037BBF80065FA55 /* Build configuration list for PBXNativeTarget "LianysAndGoku StickerPackExtension" */ = {
+		0D4008023037BBF80065FA55 /* Build configuration list for PBXNativeTarget "LAndGoku StickerPackExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0D4008033037BBF80065FA55 /* Debug */,
@@ -381,7 +381,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0D4008063037BBF80065FA55 /* Build configuration list for PBXNativeTarget "LianysAndGoku" */ = {
+		0D4008063037BBF80065FA55 /* Build configuration list for PBXNativeTarget "LAndGoku" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0D4008073037BBF80065FA55 /* Debug */,
