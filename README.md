@@ -1,13 +1,14 @@
-# L & Goku Sticker Pack for iMessage 🐶✨
+# iOS Sticker Packs Monorepo 🐶✨
 
-A custom, hand-crafted iOS Sticker Pack featuring **L & Goku** for Apple Messages.
+A collection of custom, standalone iOS / iMessage Sticker Pack applications for Apple Messages by Juan Haber.
 
 ---
 
-## 📱 Features
-- **15 Expressive Stickers:** Custom artwork featuring daily greetings, moods, and fun reactions.
-- **Zero Third-Party Tracking:** 100% private, standalone sticker app with zero analytics or data collection.
-- **Optimized for iOS & iPadOS:** Native iMessage integration with drag-and-peel sticker support.
+## 📦 Available Sticker Packs
+
+| Pack | Folder | Bundle Identifier | Status |
+| :--- | :--- | :--- | :--- |
+| **L & Goku** | [`LAndGoku/`](LAndGoku/) | `com.juan.LandGoku` | App Store Review / Live |
 
 ---
 
@@ -15,35 +16,53 @@ A custom, hand-crafted iOS Sticker Pack featuring **L & Goku** for Apple Message
 
 ```text
 sticker-pack/
-├── LAndGoku/                  # Xcode project root
-│   ├── LAndGoku.xcodeproj     # Xcode Project file
-│   ├── LAndGoku/              # Main App wrapper
-│   └── LAndGoku StickerPackExtension/  # Stickers asset catalog & config
-├── l-and-goku-1/              # Original sticker PNG source files (15 stickers)
-├── screenshots/               # App Store & iMessage formatted screenshot assets
-├── raw-assets/                # Raw composite artwork & device screenshots
-├── PRIVACY_POLICY.md          # Official Privacy Policy (linked in App Store Connect)
-└── README.md                  # Project overview
+├── LAndGoku/                          # Pack 1 (Self-Contained)
+│   ├── LAndGoku.xcodeproj             # Xcode Project
+│   ├── LAndGoku/                      # Main App target
+│   ├── LAndGoku StickerPackExtension/ # Stickers asset catalog & icons
+│   ├── source-stickers/               # 15 individual PNG source stickers
+│   ├── raw-assets/                    # Raw composites & screenshots
+│   └── screenshots/                   # App Store formatted screenshots
+│       ├── imessage_iphone/           # iPhone 6.5"/6.7" (1284x2778)
+│       └── imessage_ipad/             # iPad 13" (2048x2732)
+│
+├── tools/                             # Automation & asset generation tools
+│   ├── generate_icons.swift           # Generates all 13 iMessage App Icon sizes
+│   └── format_screenshots.swift       # Formats screenshots to exact App Store dimensions
+│
+├── PRIVACY_POLICY.md                  # Global Privacy Policy (linked on App Store Connect)
+├── .gitignore                         # Xcode & macOS ignore rules
+└── README.md                          # Repository hub & documentation
 ```
 
 ---
 
-## 🛠️ Development & Building
+## 🛠️ How to Add a New Sticker Pack
 
-### Requirements
-- macOS with **Xcode 16+**
-- Active **Apple Developer Account** (for signing & distribution)
+When creating a new sticker pack in this repo:
 
-### How to Run Locally
-1. Open `LAndGoku/LAndGoku.xcodeproj` in Xcode.
-2. Select your development team under **Signing & Capabilities**.
-3. Select your connected iPhone as the run destination.
-4. Hit **Run (▶)** (`Cmd + R`).
+1. **Create the Project in Xcode:**
+   - In Xcode: **File > New > Project > iOS > Sticker Pack App**.
+   - Save it directly into the root folder (e.g. `sticker-pack/YourPackName/`).
+2. **Add Your PNG Stickers:**
+   - Drag your transparent PNGs into `Stickers.xcstickers > Sticker Pack`.
+   - Save copies in `YourPackName/source-stickers/`.
+3. **Auto-Generate All App Icon Sizes (5 seconds):**
+   ```bash
+   swift tools/generate_icons.swift <path-to-cover-sticker.png> "YourPackName/YourPackName StickerPackExtension/Stickers.xcstickers/iMessage App Icon.stickersiconset"
+   ```
+4. **Auto-Generate App Store Screenshots (5 seconds):**
+   ```bash
+   swift tools/format_screenshots.swift <messages-screenshot.png> <stickers-poster.png> "YourPackName/screenshots"
+   ```
+5. **Build & Distribute:**
+   - Open the `.xcodeproj` in Xcode.
+   - Archive and upload to App Store Connect / TestFlight!
 
 ---
 
 ## 🔒 Privacy Policy
-Read our full privacy policy here: [PRIVACY_POLICY.md](PRIVACY_POLICY.md).
+All sticker packs in this repository adhere to the [Privacy Policy](PRIVACY_POLICY.md) (Zero data collection / tracking).
 
 ---
 
